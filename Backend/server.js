@@ -23,7 +23,7 @@ connectCloundinary()
 // middlewares
 app.use(express.json())
 // app.use(cors())
-const allowedOrigins = ["https://ymcaibadan-admin.onrender.com", "https://ymcaibadan-0vh5.onrender.com"];
+const allowedOrigins = ["https://ymca-admin.onrender.com/", "https://ymcaibadan-0vh5.onrender.com"];
 
 app.use(
   cors({
