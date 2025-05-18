@@ -2,7 +2,7 @@ import speedtouch from "./speedtouch.jpg";
 import wallreact from "./wallreact.png";
 import wall from "./wall.jpg";
 import wallpaper from "./wallpaper.png";
-import Mission from "./mission.jpg";
+import Mission from "./wallpaper.png";
 import vision from "./vision.jpg";
 import core_values from "./core_values.jpg";
 
