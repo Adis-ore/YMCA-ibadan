@@ -1,0 +1,9 @@
+@import "tailwindcss";
+/* import "react-multi-carousel/lib/styles.css"; */
+
+
+a.active hr{
+    display: block;
+}
+
+
