@@ -5,7 +5,8 @@ import tailwindcss from '@tailwindcss/vite'
 export default defineConfig({
   plugins: [react(), tailwindcss()],
   server: {
-    port: process.env.PORT || 5174, // use Render-assigned port or fallback
-    host: '0.0.0.0', // required so Render can access the server
-  }
+    port: process.env.PORT || 5174,
+    host: '0.0.0.0',
+    allowedHosts: ['ymca-admin.onrender.com'], // ✅ allow your Render domain
+  },
 })
