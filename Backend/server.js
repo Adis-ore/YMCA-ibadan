@@ -24,8 +24,8 @@ connectCloundinary()
 app.use(express.json())
 // app.use(cors())
 const allowedOrigins = [
-  "https://ymca-admin.onrender.com",
-  "https://ymcaibadan-0vh5.onrender.com"
+  "https://ymcaibadanadmin.vercel.app",
+  "https://ymcaibadan.vercel.app"
 ];
 
 app.use(

@@ -49,15 +49,9 @@ const Navbar = () => {
       <div className="flex items-center gap-6">
         <Link to='/donation'>
           <button className="bg-red-600  text-white px-9 m-4  py-2 rounded-md hidden cursor-pointer sm:flex">
-            {/* <BiDonateHeart className="text-[20px]" /> */}
             <FaHandshake className="text-[20px]" />
           </button>
         </Link>
-        {/* <div className="hidden sm:flex gap-4 text-gray-500 text-[20px] flex-row">
-          <AiFillInstagram />
-          <BsFacebook />
-          <BsTiktok />
-        </div> */}
         <FiMenu onClick={()=> setVisible(true)} className="cursor-pointer  sm:hidden" />
       </div>
       {/* ----------side bar visibility ------------ */}
